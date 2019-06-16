@@ -1,3 +1,8 @@
+//- File Name:-layout.pug
+//- Author Name:-Anish Gandhi
+//- Website Name:-Portfolio 
+//- Description:-contains design layout for all the pages in application
+
 doctype html
 html
   head
@@ -62,58 +67,35 @@ section#services.page-section
             i.fas.fa-4x.fa-heart.text-primary.mb-4
             h3.h4.mb-2 Made with Love
             p.text-muted.mb-0 Is it really open source if it&apos;s not made with love?
-//- Portfolio Section
-section#portfolio
-    .container-fluid.p-0
-      .row.no-gutters
-        .col-lg-4.col-sm-6
-          a.portfolio-box(href='img/portfolio/fullsize/1.jpg')
-            img.img-fluid(src='img/portfolio/thumbnails/1.jpg' alt='')
-            .portfolio-box-caption
-              .project-category.text-white-50
-                | Category
-              .project-name
-                | Project Name
-        .col-lg-4.col-sm-6
-          a.portfolio-box(href='img/portfolio/fullsize/2.jpg')
-            img.img-fluid(src='img/portfolio/thumbnails/2.jpg' alt='')
-            .portfolio-box-caption
-              .project-category.text-white-50
-                | Category
-              .project-name
-                | Project Name
-        .col-lg-4.col-sm-6
-          a.portfolio-box(href='img/portfolio/fullsize/3.jpg')
-            img.img-fluid(src='img/portfolio/thumbnails/3.jpg' alt='')
-            .portfolio-box-caption
-              .project-category.text-white-50
-                | Category
-              .project-name
-                | Project Name
-        .col-lg-4.col-sm-6
-          a.portfolio-box(href='img/portfolio/fullsize/4.jpg')
-            img.img-fluid(src='img/portfolio/thumbnails/4.jpg' alt='')
-            .portfolio-box-caption
-              .project-category.text-white-50
-                | Category
-              .project-name
-                | Project Name
-        .col-lg-4.col-sm-6
-          a.portfolio-box(href='img/portfolio/fullsize/5.jpg')
-            img.img-fluid(src='img/portfolio/thumbnails/5.jpg' alt='')
-            .portfolio-box-caption
-              .project-category.text-white-50
-                | Category
-              .project-name
-                | Project Name
-        .col-lg-4.col-sm-6
-          a.portfolio-box(href='img/portfolio/fullsize/6.jpg')
-            img.img-fluid(src='img/portfolio/thumbnails/6.jpg' alt='')
-            .portfolio-box-caption.p-3
-              .project-category.text-white-50
-                | Category
-              .project-name
-                | Project Name
+
+//- Services Section
+section#services.page-section
+    .container
+      h2.text-center.mt-0 At Your Service
+      hr.divider.my-4
+      .row
+        .col-lg-3.col-md-6.text-center
+          .mt-5
+            i.fas.fa-4x.fa-gem.text-primary.mb-4
+            h3.h4.mb-2 Sturdy Themes
+            p.text-muted.mb-0 Our themes are updated regularly to keep them bug free!
+        .col-lg-3.col-md-6.text-center
+          .mt-5
+            i.fas.fa-4x.fa-laptop-code.text-primary.mb-4
+            h3.h4.mb-2 Up to Date
+            p.text-muted.mb-0 All dependencies are kept current to keep things fresh.
+        .col-lg-3.col-md-6.text-center
+          .mt-5
+            i.fas.fa-4x.fa-globe.text-primary.mb-4
+            h3.h4.mb-2 Ready to Publish
+            p.text-muted.mb-0 You can use this design as is, or you can make changes!
+        .col-lg-3.col-md-6.text-center
+          .mt-5
+            i.fas.fa-4x.fa-heart.text-primary.mb-4
+            h3.h4.mb-2 Made with Love
+            p.text-muted.mb-0 Is it really open source if it&apos;s not made with love?
+
+            
 //- Call to Action Section
 section.page-section.bg-dark.text-white
     .container.text-center
